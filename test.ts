@@ -4,6 +4,9 @@ MFRC522.Init();
 // Get ID of RFID card
 serial.writeLine(MFRC522.getID().toString());
 
+// Get ID once of RFID card
+serial.writeLine(MFRC522.readID()?.toString());
+
 // Read data from RFID card
 serial.writeLine(MFRC522.read());
 

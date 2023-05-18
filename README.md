@@ -33,6 +33,14 @@ This function reads the cards unique ID and returns it.
 MFRC522.getID()
 ```
 
+## Read ID once from card
+This function attempts to read the cards unique ID once only and returns it.
+
+```typescript
+// Read unique ID once only
+MFRC522.readID()
+```
+
 ## Read data from card
 Data stored on the card can be retrieved with this function.
 

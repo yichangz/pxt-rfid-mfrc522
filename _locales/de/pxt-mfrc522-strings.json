@@ -2,6 +2,7 @@
   "MFRC522.AntennaOff|block": "Antenne ausschalten",
   "MFRC522.Init|block": "Initialisiere MFRC522-Modul",
   "MFRC522.getID|block": "Lese ID",
+  "MFRC522.readID|block": "Lese ID einmal",
   "MFRC522.read|block": "Lese Daten",
   "MFRC522.write|block": "Schreibe Daten %text",
   "{id:category}MFRC522": "MFRC522"

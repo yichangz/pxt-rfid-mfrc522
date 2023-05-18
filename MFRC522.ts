@@ -395,7 +395,12 @@ namespace MFRC522 {
         return a
     }
 
-    function readID() {
+    /*
+    * Function to read ID once only from card
+    */
+    //% block="Read ID once"
+    //% weight=94
+    export function readID() {
         [status, Type2] = Request(PICC_REQIDL)
 
         if (status != 0) {
